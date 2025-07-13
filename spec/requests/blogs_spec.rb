@@ -19,7 +19,7 @@ RSpec.describe "Blogs", type: :request do
   end
 
   describe 'POST /create' do
-    let (:user) { create(:user) }
+    let(:user) { create(:user) }
 
     context 'when the blog is valid' do
       before do
