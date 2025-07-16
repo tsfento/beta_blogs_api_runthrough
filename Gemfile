@@ -51,4 +51,5 @@ group :development, :test do
   gem "bcrypt"
   gem "jwt"
   gem "blueprinter"
+  gem "rack-cors"
 end
